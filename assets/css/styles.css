@@ -1,0 +1,175 @@
+.happy-pay-wrapper{
+    color:#000;
+    margin-top:10px;margin-bottom:20px;
+    font-family: 'Quicksand', sans-serif;
+}
+.happy-button-modal{
+
+}
+.happy-pay-body{
+    margin-top: 5px;
+    display:flex;align-items: center;
+    color:#8d8d8d;
+    font-family: 'Poppins', sans-serif !important;
+}
+.happy-pay-caption{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif !important;
+}
+.happy-pay-button {
+    width: 105px;
+    height: 42px;
+    flex-shrink: 0;
+    margin-right: 10px;
+    cursor:pointer;
+}
+.happy-pay-text {
+    font-size: 14px;
+    line-height: 16px;
+}
+.happy-button-modal{
+    display: none;
+    position: fixed;
+    z-index: 1000000;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    box-sizing: border-box;
+}
+.hppbtn-modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 18px 18px 38px;
+    border: 1px solid #888;
+    width: 50%;
+    box-sizing: border-box;
+    color:#000;
+    font-family: 'Quicksand', sans-serif;
+}
+.hppbtn-modal-close {
+    color: #FFE05D;
+    float: right;
+    height: 44.8px;
+    font-weight: bold;
+    cursor:pointer;
+}
+.hppbtn-modal-content p{
+    margin: 0 0 1em;
+    padding: 10px;
+    font-size: 18px;
+}
+.hppbtn-modal-logo{
+    text-align: center;
+}
+.hppbtn-modal-logo img{
+    width: 35%;
+    padding-top: 64px;
+}
+.hppbtn-modal-title {
+    color: #161C21;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 22px;
+    margin-bottom: 24.9px;
+    letter-spacing: inherit;
+    line-height: 46px;
+    font-family: 'Poppins', sans-serif !important;
+}
+.hppbtn-all-padding{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.hppbtn-modal-sub-title {
+    color: #161C21;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+.hppbtn-modal-content p.hppbtn-modal-sub-title{
+    margin-left: -7.2px;
+}
+.hppbtn-block {
+    width: 100%;
+    position: relative;
+    padding: 0 50px 0 0;
+    clear: both;
+}
+.hppbtn-fr {
+    box-sizing: border-box;
+}
+.hppbtn-fr .hppbtn-circle {
+    float: left;
+    margin-left: -4.2em;
+}
+.hppbtn-circle:before, .hppbtn-circle:after {
+    position: relative;
+    content: '';
+}
+.hppbtn-circle, .hppbtn-circle:before, .hppbtn-circle:after {
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
+}
+.hppbtn-circle:before {
+    max-width: 40%;
+    max-height: 40%;
+    min-width: 40%;
+    min-height: 40%;
+    top: 30%;
+    left: 30%;
+    background: #FFE05D;
+}
+.hppbtn-circle {
+    float: right;
+    margin-right: -85px;
+    margin-top: -0.3em;
+    position: relative;
+    z-index: 2;
+    max-width: 25px;
+    max-height: 25px;
+    width: 35px;
+    height: 35px;
+    min-width: 35px;
+    min-height: 35px;
+    background: white;
+    border: 3.5px solid #FFE05D;
+    box-sizing: border-box;
+}
+.hppbtn-fr {
+    padding: 17px 0 0 92px;
+}
+
+.hppbtn-fr {
+    padding: 17px 0 0 120px;
+}
+.hppbtn-block .text-title{
+    font-family: 'Poppins', sans-serif !important;
+}
+@media (max-width: 1600px) {
+    .hppbtn-fr {
+        padding: 17px 0 0 92px;
+    }
+}
+@media (max-width: 1300px){
+    .hppbtn-modal-content{
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .hppbtn-modal-logo img{
+        width: 70%;
+    }
+}
+@media (max-width: 500px) {
+
+}
